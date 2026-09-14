@@ -2,7 +2,7 @@
 
 Product-minded builder turning awkward real-world problems into useful, accessible products across software, data, AI and hardware.
 
-I work at the intersection of healthcare and product delivery, and outside of that I build things that fix annoyingly specific problems I actually have — a scraper for NHS board papers, an accessible colour-palette tool, a companion device that sits on my desk. I'd rather ship something small and honestly-documented than something impressive-sounding and untested.
+I work at the intersection of healthcare and product delivery, and outside of that I build things that fix annoyingly specific problems I actually have, a scraper for NHS board papers, an accessible colour-palette tool, a companion device that sits on my desk. I'd rather ship something small and honestly-documented than something impressive-sounding and untested.
 
 ## What I build
 
@@ -28,14 +28,14 @@ I work at the intersection of healthcare and product delivery, and outside of th
 ## How I work
 
 - **Constraint-led decisions** — I document *why* something was built a certain way (e.g. why Ritual has no server and no save feature), not just what it does.
-- **Rapid validation over polish-first** — ship something real, then check the claims hold up. Several of the projects above were re-verified from scratch (privacy claims tested against actual network traffic, contrast maths checked against the real WCAG formula) rather than taken on faith from their own README.
+- **Rapid validation over polish-first** — ship something real, then check the claims hold up. I like to re-verify my projects from scratch (privacy claims tested against actual network traffic, contrast maths checked against the real WCAG formula)
 - **Accessibility by default** — from WCAG-validated colour tooling to plain, honest UI copy.
-- **Privacy-conscious** — the tools that handle sensitive personal content (expressive writing, NHS-adjacent data) are built to keep as little as possible, and I try to prove that rather than just claim it.
-- **Honest about limitations** — untested features get labelled untested. Dead links get fixed, not left. If something doesn't have a test suite yet, the README says so instead of implying otherwise.
+- **Privacy-conscious** — the tools that handle sensitive personal content (expressive writing, NHS-adjacent data) are built to keep as little as possible, and I try to prove that rather than just claim it. 
+- **Honest about limitations** — untested features get labelled untested. Dead links get fixed, not left. If something doesn't have a test suite yet, the README says so instead of implying otherwise. 
 
 ## Interested in
 
-Technical product roles, implementation and delivery, innovation teams, digital transformation, and health-tech specifically — where "does this actually work for the person using it" matters as much as the roadmap.
+Technical product roles, implementation and delivery, innovation teams, digital transformation, and health-tech specifically, with a focus on AI and personalised treatment. Where "does this actually work for the person using it" matters as much as the roadmap.
 
 ## Elsewhere
 
