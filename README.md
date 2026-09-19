@@ -1,3 +1,5 @@
+![Harry Chapman Header Banner](banner.png)
+
 # Hi, I'm Harry.
 
 Product-minded builder turning awkward real-world problems into useful, accessible products across software, data, AI and hardware.
