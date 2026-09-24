@@ -1,33 +1,49 @@
-![Windows XP inspired desktop banner: Harry Chapman, games and useful things](banner.png)
+![Harry Chapman desktop banner with shortcuts to my projects](banner.png)
 
-# Hi, I'm Harry 👋
+# Hi, I'm Harry.
 
-I'm a healthcare product manager with an impatience for boring. Outside work, I make browser games and tools for those oddly specific moments when you think, *surely there’s a better way to do this?*
+Product-minded builder turning awkward real-world problems into useful, accessible products across software, data, AI and hardware.
 
-## Currently open on my desktop
+I work at the intersection of healthcare and product delivery, and outside of that I build things that fix annoyingly specific problems I actually have, a scraper for NHS board papers, an accessible colour-palette tool, a companion device that sits on my desk. I'd rather ship something small and honestly-documented than something impressive-sounding and untested.
 
-### 🏆 [Esports Idle](https://hazzjc.github.io/esportsidle/)
+## What I build
 
-Start with a garage squad. Scout players, build teams, chase championships, grow a commercial empire, and eventually take your esports organisation into orbit. It's an incremental game with much more going on than the first click suggests.
+- **Games** — browser games built to be played with friends or returned to for one more round, from an esports management idle game to a four-clue party quiz.
+- **Practical products** — tools built to solve one real problem well, like a group game-night planner or a duck-race decision randomizer.
+- **Accessible & data tools** — WCAG-compliant colour generation, NHS board-paper scraping, and cost-modelling calculators for healthcare decision-makers.
+- **Creative software** — small, emotionally-considered experiences, like a "write it and burn it" expressive-writing ritual.
+- **Hardware** — porting open firmware to new physical boards, with the engineering and constraints documented, not just the result.
 
-**[Play Esports Idle →](https://hazzjc.github.io/esportsidle/)** · [Explore the code](https://github.com/HazzJC/esportsidle)
+## Featured projects
 
-### 🔗 [LinkMe](https://linkme-5d3.pages.dev/)
+**[Esports Idle](https://github.com/HazzJC/esportsidle)** — start with a garage squad, then scout players, manage seasons, chase championships, and grow the business behind the team through merch and sponsorships. The incremental game eventually takes your organisation all the way to orbit. [Play in your browser](https://hazzjc.github.io/esportsidle/).
 
-Four clues. One hidden link. A room full of friends trying to buzz in first. My Linkee-inspired party quiz supports up to 16 players, phone-friendly lobbies, a TV screen mode, and custom question packs.
+**[LinkMe](https://linkme-5d3.pages.dev/)** — a Linkee-inspired party quiz for up to 16 friends: four trivia answers share one hidden link, and the first to buzz in scores. Phone-friendly lobbies, TV screen mode, and custom packs make it work for an actual game night. [Play in your browser](https://linkme-5d3.pages.dev/).
 
-**[Play LinkMe →](https://linkme-5d3.pages.dev/)**
+**[WhatShouldWePlay](https://github.com/HazzJC/WhatShouldWePlay)** — friend groups waste more time deciding what to play than actually playing; this matches everyone's availability and game preferences into an actual plan. [Live demo](https://what-should-we-play-chi.vercel.app) · 163 automated tests, green CI.
 
-## More things I've made
+**[Ritual](https://github.com/HazzJC/writeitdownripitup)** — counsellors often suggest writing a letter you'll never send; this gives that ritual a screen, then burns what you wrote. [Live demo](https://ritual.harryjameschapman.com) · privacy claim ("nothing is saved or sent") verified by code review and live network capture, not just asserted.
 
-| If you want to… | Try this |
-| --- | --- |
-| Stop the group chat from debating what to play | [WhatShouldWePlay](https://what-should-we-play-chi.vercel.app) |
-| Set fire to a letter you'll never send | [Ritual](https://ritual.harryjameschapman.com) |
-| Build a colour palette that actually passes contrast checks | [Accessible Palettes](https://hazzjc.github.io/AccessiblePalettesWCAGColourPaletteGenerator/) |
-| Find NHS board papers across scattered sites | [NHS Evidence Scraper](https://github.com/HazzJC/NHSTrustPaperScraper) |
-| Put a desktop AI companion on a round display | [Claude Desktop Buddy Waveshare port](https://github.com/HazzJC/claude-desktop-buddy-waveshare-1-85c) |
+**[Accessible Palettes](https://github.com/HazzJC/AccessiblePalettesWCAGColourPaletteGenerator)** — most palette generators don't check contrast at all; this generates 3–16 colour swatches and validates them against real WCAG AA/AAA thresholds. [Live tool](https://hazzjc.github.io/AccessiblePalettesWCAGColourPaletteGenerator/).
 
-I like clear constraints, accessible interfaces, and checking whether a product's claims hold up in real use. Sometimes that means testing contrast maths; sometimes it means trying to break my own game with friends.
+**[NHS Evidence Scraper](https://github.com/HazzJC/NHSTrustPaperScraper)** — NHS trust board papers are scattered across dozens of separate sites with no unified index; this crawls and indexes them, with rate-limiting and retry handling. AI-assisted features exist in the codebase and are clearly labelled experimental/untested, not presented as production-ready.
 
-[More about me ↗](https://harryjameschapman.com)
+**[Claude Desktop Buddy — Waveshare port](https://github.com/HazzJC/claude-desktop-buddy-waveshare-1-85c)** — porting Anthropic's open Claude Desktop Buddy firmware to a round 360×360 ESP32-S3 display meant a new board driver, remapped touch controller, and a square UI re-centred into a round frame. Upstream vs. original work is documented commit-by-commit.
+
+**[Devices Over Time](https://github.com/HazzJC/DevicesOverTime)** — a visual, interactive timeline of my own device history, built to be genuinely browsable rather than a static list. [Live site](https://devices-over-time.pages.dev).
+
+## How I work
+
+- **Constraint-led decisions** — I document *why* something was built a certain way (e.g. why Ritual has no server and no save feature), not just what it does.
+- **Rapid validation over polish-first** — ship something real, then check the claims hold up. I like to re-verify my projects from scratch (privacy claims tested against actual network traffic, contrast maths checked against the real WCAG formula)
+- **Accessibility by default** — from WCAG-validated colour tooling to plain, honest UI copy.
+- **Privacy-conscious** — the tools that handle sensitive personal content (expressive writing, NHS-adjacent data) are built to keep as little as possible, and I try to prove that rather than just claim it.
+- **Honest about limitations** — untested features get labelled untested. Dead links get fixed, not left. If something doesn't have a test suite yet, the README says so instead of implying otherwise.
+
+## Interested in
+
+Technical product roles, implementation and delivery, innovation teams, digital transformation, and health-tech specifically, with a focus on AI and personalised treatment. Where "does this actually work for the person using it" matters as much as the roadmap.
+
+## Elsewhere
+
+[harryjameschapman.com](https://harryjameschapman.com)
