@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="480" viewBox="0 0 1600 480" role="img" aria-labelledby="title desc">
+  <title id="title">Harry Chapman — games and useful things</title>
+  <desc id="desc">A playful early-2000s desktop scene with a blue window bearing Harry's name and shortcuts for Esports Idle and LinkMe.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#3b91df"/><stop offset=".64" stop-color="#82c4f4"/><stop offset="1" stop-color="#d3eefe"/></linearGradient>
+    <linearGradient id="hill" x2="0" y2="1"><stop stop-color="#91c947"/><stop offset="1" stop-color="#287d28"/></linearGradient>
+    <linearGradient id="titlebar" x2="0" y2="1"><stop stop-color="#76a8ff"/><stop offset=".13" stop-color="#286be4"/><stop offset=".77" stop-color="#0742c2"/><stop offset="1" stop-color="#235cd3"/></linearGradient>
+    <linearGradient id="taskbar" x2="0" y2="1"><stop stop-color="#3d8ef9"/><stop offset=".25" stop-color="#1e62dc"/><stop offset="1" stop-color="#0641b6"/></linearGradient>
+    <linearGradient id="start" x2="0" y2="1"><stop stop-color="#9bdf68"/><stop offset=".5" stop-color="#4ea828"/><stop offset="1" stop-color="#2b7a18"/></linearGradient>
+    <linearGradient id="panel" x2="0" y2="1"><stop stop-color="#fffefa"/><stop offset="1" stop-color="#f0f4ff"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="150%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="13" flood-color="#164663" flood-opacity=".34"/></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="1.5"/></filter>
+    <pattern id="grain" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".45" fill="#ffffff" opacity=".16"/></pattern>
+  </defs>
+  <rect width="1600" height="480" fill="url(#sky)"/>
+  <g fill="#fff" opacity=".88" filter="url(#soft)">
+    <ellipse cx="171" cy="97" rx="99" ry="21"/><ellipse cx="123" cy="84" rx="41" ry="26"/><ellipse cx="190" cy="77" rx="54" ry="30"/>
+    <ellipse cx="1335" cy="91" rx="109" ry="19"/><ellipse cx="1295" cy="76" rx="45" ry="27"/><ellipse cx="1374" cy="71" rx="55" ry="33"/>
+  </g>
+  <path d="M0 324 C310 238 444 324 694 279 C971 228 1185 332 1600 225 L1600 480 L0 480Z" fill="url(#hill)"/>
+  <path d="M0 360 C250 298 481 374 793 312 C1090 255 1343 310 1600 271 L1600 480 L0 480Z" fill="#55a52e" opacity=".83"/>
+  <path d="M0 405 C390 350 655 405 925 337 C1191 283 1415 357 1600 323 L1600 480 L0 480Z" fill="#3a9228" opacity=".68"/>
+  <rect width="1600" height="480" fill="url(#grain)" opacity=".5"/>
+
+  <!-- Desktop window -->
+  <g filter="url(#shadow)">
+    <rect x="74" y="48" width="1040" height="352" rx="12" fill="#1046b8" stroke="#0640a5" stroke-width="4"/>
+    <rect x="80" y="54" width="1028" height="41" rx="8" fill="url(#titlebar)"/>
+    <rect x="82" y="91" width="1024" height="302" fill="url(#panel)" stroke="#e0e8ff" stroke-width="3"/>
+    <path d="M83 96 H321 V392 H83Z" fill="#dbe8fb"/>
+    <path d="M321 96 V392" stroke="#aabde7" stroke-width="2"/>
+    <rect x="95" y="108" width="211" height="53" rx="4" fill="#fbfdff" stroke="#b1c5e6"/>
+    <rect x="95" y="173" width="211" height="204" rx="4" fill="#eef5ff" stroke="#b1c5e6"/>
+  </g>
+  <g font-family="Trebuchet MS, Tahoma, Arial, sans-serif">
+    <circle cx="108" cy="75" r="12" fill="#fbec8a" stroke="#fff" stroke-width="2"/>
+    <path d="M102 75 l4 4 8-9" fill="none" stroke="#2156bd" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="130" y="82" fill="#fff" font-size="21" font-weight="bold" letter-spacing=".2">About Harry</text>
+    <g font-family="Tahoma, Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">
+      <rect x="1006" y="62" width="27" height="26" rx="5" fill="#6291e7" stroke="#b7d1ff"/><text x="1019" y="81" fill="#fff">_</text>
+      <rect x="1039" y="62" width="27" height="26" rx="5" fill="#6291e7" stroke="#b7d1ff"/><text x="1052" y="81" fill="#fff">□</text>
+      <rect x="1072" y="62" width="27" height="26" rx="5" fill="#e66758" stroke="#ffc0aa"/><text x="1085" y="81" fill="#fff">×</text>
+    </g>
+    <text x="118" y="143" fill="#255394" font-size="19" font-weight="bold">CONTENTS</text>
+    <g fill="#234c86" font-size="20">
+      <text x="118" y="217">✦  Games</text>
+      <text x="118" y="255">▣  Useful tools</text>
+      <text x="118" y="293">✚  Health tech</text>
+      <text x="118" y="331">⚙  Hardware bits</text>
+    </g>
+    <text x="360" y="151" fill="#4c6baa" font-size="23" font-weight="bold" letter-spacing="2.4">HELLO, WORLD. I’M</text>
+    <text x="356" y="235" fill="#1352bd" font-size="76" font-weight="bold" letter-spacing="-2">Harry Chapman</text>
+    <path d="M361 258 H983" stroke="#b5c9e8" stroke-width="2"/>
+    <text x="361" y="305" fill="#243b5d" font-size="28">I build games and useful things.</text>
+    <text x="361" y="351" fill="#607593" font-size="20">Healthcare product  •  browser games  •  practical tools</text>
+  </g>
+
+  <!-- Two desktop shortcuts -->
+  <g font-family="Tahoma, Arial, sans-serif" text-anchor="middle" font-size="20" font-weight="bold" fill="#fff" stroke="#17508a" stroke-width="3" paint-order="stroke fill">
+    <g transform="translate(1260 141)">
+      <rect x="-42" y="-39" width="84" height="78" rx="15" fill="#254bd3" stroke="#c7e8ff" stroke-width="3"/>
+      <path d="M-16 3 L-7 -16 L2 -1 L11 -21 L20 3Z" fill="#ffd965" stroke="#fff0a3" stroke-width="2"/>
+      <circle cx="0" cy="-24" r="5" fill="#fff0a3"/>
+      <text x="0" y="67">Esports Idle</text>
+    </g>
+    <g transform="translate(1452 196)">
+      <rect x="-42" y="-39" width="84" height="78" rx="15" fill="#ed7d4f" stroke="#fff4ca" stroke-width="3"/>
+      <path d="M-23 -1 L-10 -13 L1 -1 L12 -13 L24 -1 L12 11 L1 0 L-10 11Z" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="0" y="67">LinkMe</text>
+    </g>
+  </g>
+
+  <!-- Taskbar -->
+  <rect y="429" width="1600" height="51" fill="url(#taskbar)"/>
+  <path d="M0 430 H1600" stroke="#8abaff" stroke-width="3"/>
+  <path d="M0 431 H154 Q167 431 167 449 V463 Q167 480 151 480 H0Z" fill="url(#start)" stroke="#277823" stroke-width="2"/>
+  <g font-family="Trebuchet MS, Tahoma, Arial, sans-serif" fill="#fff">
+    <path d="M29 450 l8-6 8 4 8-4 v17 l-8 5-8-5-8 5Z" fill="#f8f5ee" opacity=".94"/>
+    <text x="68" y="464" font-size="25" font-weight="bold" font-style="italic">start</text>
+    <rect x="191" y="438" width="237" height="33" rx="4" fill="#226cd6" stroke="#82b5ff"/>
+    <text x="210" y="461" font-size="18">▣  Harry Chapman</text>
+    <rect x="439" y="438" width="208" height="33" rx="4" fill="#2c70d3" stroke="#82b5ff"/>
+    <text x="456" y="461" font-size="18">★  Esports Idle</text>
+    <rect x="658" y="438" width="175" height="33" rx="4" fill="#2c70d3" stroke="#82b5ff"/>
+    <text x="676" y="461" font-size="18">🔗  LinkMe</text>
+    <rect x="1446" y="430" width="154" height="50" fill="#1494e8" opacity=".55"/>
+    <text x="1480" y="463" font-size="18" font-weight="bold">2001 → ∞</text>
+  </g>
+</svg>
