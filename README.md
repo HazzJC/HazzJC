@@ -20,6 +20,8 @@ I work at the intersection of healthcare and product delivery, and outside of th
 
 **[LinkMe](https://linkme-5d3.pages.dev/)** — a Linkee-inspired party quiz for up to 16 friends: four trivia answers share one hidden link, and the first to buzz in scores. Phone-friendly lobbies, TV screen mode, and custom packs make it work for an actual game night. [Play in your browser](https://linkme-5d3.pages.dev/).
 
+**[Clip Clash](https://channel-30.pages.dev/)** — a knockout tournament for the funniest 1–30 second YouTube clips: everyone gets a private hand of ten, backs their best, and the room votes head-to-head until one clip is crowned. There’s also synced channel surfing with friends (vote to skip, cartoon rating faces) and a self-curating catalogue of 3,500+ clips that a scheduled collector keeps topping up for every length. [Play in your browser](https://channel-30.pages.dev/) · runs entirely on free tiers, 112 automated tests, WCAG AA text contrast audited.
+
 **[WhatShouldWePlay](https://github.com/HazzJC/WhatShouldWePlay)** — friend groups waste more time deciding what to play than actually playing; this matches everyone's availability and game preferences into an actual plan. [Live demo](https://what-should-we-play-chi.vercel.app) · 163 automated tests, green CI.
 
 **[Ritual](https://github.com/HazzJC/writeitdownripitup)** — counsellors often suggest writing a letter you'll never send; this gives that ritual a screen, then burns what you wrote. [Live demo](https://ritual.harryjameschapman.com) · privacy claim ("nothing is saved or sent") verified by code review and live network capture, not just asserted.
