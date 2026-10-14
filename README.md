@@ -1,4 +1,4 @@
-[![Harry Chapman's retro desktop — visit my website](banner.png)](https://harryjameschapman.com)
+[![Harry Chapman's retro desktop — visit my website](banner-v2.png)](https://harryjameschapman.com)
 
 # Hi, I'm Harry
 
