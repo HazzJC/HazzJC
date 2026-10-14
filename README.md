@@ -1,3 +1,5 @@
+![Harry Chapman desktop banner with shortcuts to my projects](banner.png)
+
 # Harry Chapman
 
 I work on a digital therapeutic in the NHS, which is a Class I medical device. I use this GitHub in my free time to learn more about development workflows, prototyping, user feedback and process improvement.
